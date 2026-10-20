@@ -1,0 +1,625 @@
+{
+  "schema": "conectapyme-public-portfolio-v2",
+  "files": [
+    {
+      "path": ".env.example",
+      "sha256": "6264f8c173e7f4176794aaa1f149327fac30bdbd1c214b3e94c535ed335ab2cd",
+      "bytes": 211
+    },
+    {
+      "path": ".gitattributes",
+      "sha256": "9aa4a06f01d69575563cab16e5ce83f80bc4a1932e25e99a1f77619b611ae590",
+      "bytes": 198
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "d4416979a3cf777d2c7dcd9de84080144e2094177ff3d916945f22369fa7bcb4",
+      "bytes": 175
+    },
+    {
+      "path": ".python-version",
+      "sha256": "7b55f8e67b5623c4bef3fa691288da9437d79d3aba156de48d481db32ac7d16d",
+      "bytes": 5
+    },
+    {
+      "path": ".streamlit/config.toml",
+      "sha256": "8896648249cfb98fca2b23c61eb5aa0510e67deadfe2479803421175a20f9b79",
+      "bytes": 152
+    },
+    {
+      "path": "README.md",
+      "sha256": "983414fa24840f0927837769ba2348cdb94b3feae8fe92522843781b569c417f",
+      "bytes": 5090
+    },
+    {
+      "path": "app/control_tower.py",
+      "sha256": "efab35012168a4a4f8a757e2acf1619fcc9c4cb7962b0c8778dffd5f575fc221",
+      "bytes": 34666
+    },
+    {
+      "path": "briefs/README-PDF-VALIDATION.md",
+      "sha256": "aa60282877371f8c671b2738876d5f010c30bcddb07f5084c4381619833a041c",
+      "bytes": 243
+    },
+    {
+      "path": "briefs/build_brief_pdf.py",
+      "sha256": "e88dc362319609de1a475a5f952059af23c845d0864e39bab146f49971b44d71",
+      "bytes": 8245
+    },
+    {
+      "path": "briefs/conectapyme-executive-brief.html",
+      "sha256": "a33cc57b700b12ce28d3516fdfb6754265543685d8f2c59176c558515019ba96",
+      "bytes": 6365
+    },
+    {
+      "path": "briefs/conectapyme-executive-brief.pdf",
+      "sha256": "fdbc6f83deb8d376534ab3080f25a585548a425193acd983d721353aafa679ac",
+      "bytes": 5926
+    },
+    {
+      "path": "case-studies/telcomx/telcomx-case-study.html",
+      "sha256": "089e3d887785f705b595a828dd1721b6c07b4830e89a333afdbc1ed168869f8e",
+      "bytes": 6325
+    },
+    {
+      "path": "case-studies/telcomx/telcomx-case-study.pdf",
+      "sha256": "195cde557e2eeef6ecfc295f5a3e018d69078dabe6af91d24d6cad7854f9c3a2",
+      "bytes": 75698
+    },
+    {
+      "path": "config/financial_assumptions.json",
+      "sha256": "01b30684e5af6b8ad41ea8064d70c6edab69cfd5e77947eea431e1743d650653",
+      "bytes": 5644
+    },
+    {
+      "path": "data/observable/observations.json",
+      "sha256": "104d262e6a60a62b639b5305564c31914b723ef50c76c2bd8ea8a276086cd5b1",
+      "bytes": 52878
+    },
+    {
+      "path": "docs/04-architecture-overview.md",
+      "sha256": "733ce91c36c23815f2be13b4ef963a398c267632551bf4cfb40cebc3133d3fe1",
+      "bytes": 9870
+    },
+    {
+      "path": "docs/06-economic-graph-design.md",
+      "sha256": "8ce573ae2dfbe5a7f8e03645978f54d6229b3e70e43970e78840d4bd5b39d50b",
+      "bytes": 20682
+    },
+    {
+      "path": "docs/12-commercial-ranking.md",
+      "sha256": "2b601c19769bb28b6aa48be67f4b6feb5652c30f962c107aaae6169cbec72385",
+      "bytes": 15006
+    },
+    {
+      "path": "docs/13-ranking-comparison.md",
+      "sha256": "6c29d9df31226789f2b057b37e63f1926b3dea9ab8ab43e7da3e395c5182aeb1",
+      "bytes": 7034
+    },
+    {
+      "path": "docs/14-incremental-economic-case.md",
+      "sha256": "e76fc8595dbd4c55156a7c2f2194575afc05fd16f820448de46ae345a42725d6",
+      "bytes": 21436
+    },
+    {
+      "path": "docs/15-incrementality-experiment.md",
+      "sha256": "54d16b68f06e5d57b15838129eadb49e4639bd0e9bbe2c25a38fd58fd595bd91",
+      "bytes": 12725
+    },
+    {
+      "path": "docs/16-financial-calculation.md",
+      "sha256": "7ef087179f13aeb4536e9838a6d9d8f62b1983f7ce636220399304b1d494facd",
+      "bytes": 3548
+    },
+    {
+      "path": "docs/17-control-tower-design.md",
+      "sha256": "4703e998aa0b692a6dd97a7f48cd06a85dc466c11630ad5bf01fc60113983f93",
+      "bytes": 32928
+    },
+    {
+      "path": "docs/18-control-tower-demo.md",
+      "sha256": "bf838a26c325180d0d74cb9ed9251e3430a8c7c4411cebd19bb9a148ff9c3cb4",
+      "bytes": 22194
+    },
+    {
+      "path": "docs/VALIDACION_PUBLICA.md",
+      "sha256": "e768f71804f1057884658a730500fae6aac744f143fc569d867e17681359b85e",
+      "bytes": 1242
+    },
+    {
+      "path": "presentation-showcase/ConectaPyME.pdf",
+      "sha256": "2003be660947c2bd1d524da0207a1f3954818c9247444479e066d92a9d323ec5",
+      "bytes": 2999520
+    },
+    {
+      "path": "presentation-showcase/README.md",
+      "sha256": "a97f66b0f649308d13a0740c0c8049f9f898570227801beeb1a6a316a7944041",
+      "bytes": 996
+    },
+    {
+      "path": "presentation-showcase/app.js",
+      "sha256": "3dc47ad3314c5dce0983d73fcb15a18cf57dd38e70528ab12bdf16a0df6472ff",
+      "bytes": 59876
+    },
+    {
+      "path": "presentation-showcase/assets/arquitectura.svg",
+      "sha256": "abcf61874f7a77954e160e31dbcfcdab06f53d87263db036985a538136f6426d",
+      "bytes": 2825
+    },
+    {
+      "path": "presentation-showcase/assets/favicon.svg",
+      "sha256": "45321837b994e78fa0dcd44347a2d44fc918fd51bb6f2c2d037af96a4a279669",
+      "bytes": 247
+    },
+    {
+      "path": "presentation-showcase/assets/fonts/inter-LICENSE.txt",
+      "sha256": "3b0a5fca3d17942cde889069889dedbbbd075e9b599968c82a95f4d944e9b345",
+      "bytes": 4477
+    },
+    {
+      "path": "presentation-showcase/assets/fonts/inter.woff2",
+      "sha256": "3100e775e8616cd2611beecfa23a4263d7037586789b43f035236a2e6fbd4c62",
+      "bytes": 48256
+    },
+    {
+      "path": "presentation-showcase/assets/fonts/manrope-LICENSE.txt",
+      "sha256": "d826ab6583b12c26807d8716a545bdbbb672df04f48608a364ba9efdbe501c30",
+      "bytes": 4383
+    },
+    {
+      "path": "presentation-showcase/assets/fonts/manrope.woff2",
+      "sha256": "a30ddcd349703aff7464c34bef3fffdff405ee50c113440d7c8693c02d210972",
+      "bytes": 24836
+    },
+    {
+      "path": "presentation-showcase/assets/recorrido.svg",
+      "sha256": "d53fe7a9487ad9208cb56f7c721047838feccd85d7d993664fc83a8ed13e922c",
+      "bytes": 3170
+    },
+    {
+      "path": "presentation-showcase/content.json",
+      "sha256": "c976c024d2ead88df41d818e622ba9fdfdcb7bcab4cd7d7c1ec36c6b717ef8ac",
+      "bytes": 109145
+    },
+    {
+      "path": "presentation-showcase/data.js",
+      "sha256": "6df277b1f4302f95de73a02667487e4890b64049a36fa9d3d6dccb051221497e",
+      "bytes": 620284
+    },
+    {
+      "path": "presentation-showcase/docs/guia-estudio.html",
+      "sha256": "635e8ef083bc61b30f4c5b0cec206905109b795543bd78c59910231f0e96ac30",
+      "bytes": 68694
+    },
+    {
+      "path": "presentation-showcase/docs/guion.md",
+      "sha256": "8062a4bff6cd4e70e0943246ed03c4cdea78d7e0eb28d609ad9955aa72abd41b",
+      "bytes": 61297
+    },
+    {
+      "path": "presentation-showcase/docs/trazabilidad.csv",
+      "sha256": "7373166fb2e9416bdbafe01aac1c681482129631769e61b7300032f124d6357d",
+      "bytes": 47023
+    },
+    {
+      "path": "presentation-showcase/evidence/iteration-3/data/context-reproduced.json",
+      "sha256": "896e6a2ba34940a0b212e4d7236403da74c826ecd3a811694410294e706f38ff",
+      "bytes": 276939
+    },
+    {
+      "path": "presentation-showcase/evidence/iteration-3/data/contextual-evidence.json",
+      "sha256": "c29309ded1be9e0e3c1cb78bee5fbe19d471ea3fc82dda74c81c880e8c7f3c87",
+      "bytes": 426367
+    },
+    {
+      "path": "presentation-showcase/evidence/iteration-3/data/finance-reproduced.json",
+      "sha256": "2d7d60531cfff3a0b5b04e30013ffbaa051f976a14e575acb3f8558833d35a2c",
+      "bytes": 166891
+    },
+    {
+      "path": "presentation-showcase/evidence/iteration-3/data/financial_assumptions.json",
+      "sha256": "01b30684e5af6b8ad41ea8064d70c6edab69cfd5e77947eea431e1743d650653",
+      "bytes": 5644
+    },
+    {
+      "path": "presentation-showcase/evidence/iteration-3/data/observations.json",
+      "sha256": "104d262e6a60a62b639b5305564c31914b723ef50c76c2bd8ea8a276086cd5b1",
+      "bytes": 52878
+    },
+    {
+      "path": "presentation-showcase/evidence/iteration-3/panels/confirmed.png",
+      "sha256": "c66911393292d9d51590379ef5d669b519f56744d724a7ed09230169004160e1",
+      "bytes": 148024
+    },
+    {
+      "path": "presentation-showcase/evidence/iteration-3/panels/context.png",
+      "sha256": "3d7eb8c8f0fc1a446ddded6448b86b9da0e20100080d1aa654e62244f8eb5746",
+      "bytes": 183875
+    },
+    {
+      "path": "presentation-showcase/evidence/iteration-3/panels/controlled-channel-unavailable-fallback.png",
+      "sha256": "069af94708134491dd71fba6f5ca5db25df121309a7edf9fb0f175fcc429be56",
+      "bytes": 124758
+    },
+    {
+      "path": "presentation-showcase/evidence/iteration-3/panels/filters-capture-expanded.png",
+      "sha256": "20d8981c4bec767effedaf116f8cf399a277f21752cadde1ce80611ba9e07873",
+      "bytes": 141822
+    },
+    {
+      "path": "presentation-showcase/evidence/iteration-3/panels/filters-company-remote.png",
+      "sha256": "eb53ade0e3338ac7ec903c4e9213a7ee9c917549ef2d7dfcf4048a30f130fa43",
+      "bytes": 179262
+    },
+    {
+      "path": "presentation-showcase/evidence/iteration-3/panels/filters-global-remote.png",
+      "sha256": "7176236451a0161aff661859132f0ceaf8a44cfac4096ea5d1172ce1d7d52e16",
+      "bytes": 177893
+    },
+    {
+      "path": "presentation-showcase/evidence/iteration-3/panels/filters-industry-remote.png",
+      "sha256": "993eef3269a7c854e5167ba2630de882a809e07cbdbf049c70922f35ce81963e",
+      "bytes": 180400
+    },
+    {
+      "path": "presentation-showcase/evidence/iteration-3/panels/filters.png",
+      "sha256": "348fd9924e077d63c541f1988874414afbbcbeaf59d36bcfeced59f8ca12d698",
+      "bytes": 177014
+    },
+    {
+      "path": "presentation-showcase/evidence/iteration-3/panels/finance.png",
+      "sha256": "0c3c408ace39dc2faf72fe2acdc6f9af05dc6f0ab8c6526406a54ea4f9226980",
+      "bytes": 174077
+    },
+    {
+      "path": "presentation-showcase/evidence/iteration-3/panels/hornos-technical.png",
+      "sha256": "19538f9bdc2f8be51232842c273a55d3d20d9674cdce50ff0772b7c7d1b670d1",
+      "bytes": 143451
+    },
+    {
+      "path": "presentation-showcase/evidence/iteration-3/panels/hornos.png",
+      "sha256": "4ffc68156d0227a320da10bbca4b1b5d91c10afb42cc452ff8227618c26adcd7",
+      "bytes": 154441
+    },
+    {
+      "path": "presentation-showcase/evidence/iteration-3/panels/leaders-carga-remote.png",
+      "sha256": "6f61b396a88681d70ea3a3b3b0ed1fecbff9b65344bd01e054722ec538131152",
+      "bytes": 149692
+    },
+    {
+      "path": "presentation-showcase/evidence/iteration-3/panels/leaders.png",
+      "sha256": "73421fba4e62b49173355f5079a9a37f8f105cf9b56e64e290ad576e96bfa134",
+      "bytes": 146591
+    },
+    {
+      "path": "presentation-showcase/evidence/iteration-3/panels/ledger.png",
+      "sha256": "0a1e228698ff7dea11089eb77aab8c3b6666ed2584f45f1e9f4bbbe5ff20547a",
+      "bytes": 159931
+    },
+    {
+      "path": "presentation-showcase/evidence/iteration-3/panels/manifest.json",
+      "sha256": "1a31763a61db695a4d20932c489991fc2115f7cad639ecd30d016c9a15f091cb",
+      "bytes": 6599
+    },
+    {
+      "path": "presentation-showcase/evidence/iteration-3/panels/presenter-controls.png",
+      "sha256": "d09db816f9257f5ddffd52d3ca471e5bae6721e0ee2ae952ed4e451fa0f62891",
+      "bytes": 162876
+    },
+    {
+      "path": "presentation-showcase/evidence/source-html/app__control_tower.py.html",
+      "sha256": "666ff1ded958008926ff1ce8e50298e7bb7110666b39eb773b037b9c64993776",
+      "bytes": 202976
+    },
+    {
+      "path": "presentation-showcase/evidence/source-html/config__financial_assumptions.json.html",
+      "sha256": "432a08731490c5c63ef41e375641de5ec9fcad5491ca0434196efcd47d53182d",
+      "bytes": 22487
+    },
+    {
+      "path": "presentation-showcase/evidence/source-html/docs__04-architecture-overview.md.html",
+      "sha256": "4d360640da6509b504dec0b9f2c46c6436120d5496b4ab1771088e528faff329",
+      "bytes": 19228
+    },
+    {
+      "path": "presentation-showcase/evidence/source-html/docs__12-commercial-ranking.md.html",
+      "sha256": "7e94a2bfb5348e1ff0b8ba3bb30494c292787dd70d1cfa1738ba2f1df6f4f949",
+      "bytes": 23892
+    },
+    {
+      "path": "presentation-showcase/evidence/source-html/docs__13-ranking-comparison.md.html",
+      "sha256": "d25b83cd45233cfe27ce1fe09328ef44a39347a7789669d6ae04b7300fbaac15",
+      "bytes": 15955
+    },
+    {
+      "path": "presentation-showcase/evidence/source-html/docs__14-incremental-economic-case.md.html",
+      "sha256": "2f40bd79185473c55f57d476c976b7058884cf0982ec13abb24cf08a816d4043",
+      "bytes": 34831
+    },
+    {
+      "path": "presentation-showcase/evidence/source-html/docs__15-incrementality-experiment.md.html",
+      "sha256": "1e951dae637ade8b3b22e1a89e75f606dbcf07de3eb33a54cf012ff5e3aecc6d",
+      "bytes": 19679
+    },
+    {
+      "path": "presentation-showcase/evidence/source-html/src__economic_graph__contracts.py.html",
+      "sha256": "9570a8295fa6174b8be920471c214389f88965efff4aafb8183cbc04e39029e3",
+      "bytes": 41966
+    },
+    {
+      "path": "presentation-showcase/evidence/source-html/src__economic_graph__database.py.html",
+      "sha256": "a54b43fe21a285a1fbd9294dc20efa75618d34c38b20ce81debb8b55be6e4c4b",
+      "bytes": 11164
+    },
+    {
+      "path": "presentation-showcase/evidence/source-html/src__economic_graph__finance.py.html",
+      "sha256": "7469e4b618f28c9026f69d7da2a09a5c9a1f184e770eda89fcc1e3fafb4fed7e",
+      "bytes": 131341
+    },
+    {
+      "path": "presentation-showcase/evidence/source-html/src__economic_graph__mongo_observable.py.html",
+      "sha256": "47bdab543a1a994b2edab375030914aeb6c67ca0c56eeaa2dca8ba4437ef9955",
+      "bytes": 24694
+    },
+    {
+      "path": "presentation-showcase/evidence/source-html/src__economic_graph__observable.py.html",
+      "sha256": "b03e7d3a2409f0f552e9df179d219401bae72f1c6761d4fae92e1f1aa0ac9e05",
+      "bytes": 45070
+    },
+    {
+      "path": "presentation-showcase/evidence/source-html/src__economic_graph__rankings.py.html",
+      "sha256": "5880385e7e332ea45b754d11bebfd6a9ac781d4e7ab495a1fefeafff40778de5",
+      "bytes": 82175
+    },
+    {
+      "path": "presentation-showcase/evidence/source-html/src__economic_graph__simulator__project.py.html",
+      "sha256": "9408ba0f523c93fdd703feeb96c91e6cea6dbf2ca74dfdb6a4698a9f69e2abe5",
+      "bytes": 30012
+    },
+    {
+      "path": "presentation-showcase/evidence/source-html/src__economic_graph__tower_read_model.py.html",
+      "sha256": "c83d38b4cf7190f792061078c143579b0ef258c9fa535b8465a4319f56637d6c",
+      "bytes": 101168
+    },
+    {
+      "path": "presentation-showcase/evidence/source-html/tests__integration__test_atlas_observable.py.html",
+      "sha256": "f2ddcba978f56df6325ae1d2cc4273e08cc0b3f82855d1631ff79b0784e71729",
+      "bytes": 9330
+    },
+    {
+      "path": "presentation-showcase/evidence/source-html/tests__test_control_tower.py.html",
+      "sha256": "b8c7342f156d06727bb8d0a3ad60c8e87682b8f7ae7a2dfbacb00e13a48b993a",
+      "bytes": 126969
+    },
+    {
+      "path": "presentation-showcase/evidence/source-html/tests__test_finance.py.html",
+      "sha256": "1d511a5b1d06d6249e05e7fc95adb1c8dde8dd5dc00719453ee5bd720d3b5cd7",
+      "bytes": 87862
+    },
+    {
+      "path": "presentation-showcase/evidence/source-html/tests__test_mongo_observable.py.html",
+      "sha256": "f37b76ad485c371ff5dfa29a48732fcfa1b0a3638ec99efb6056c9a996baeeec",
+      "bytes": 42754
+    },
+    {
+      "path": "presentation-showcase/evidence/source-html/tests__test_observable.py.html",
+      "sha256": "e3a941b84f2b22eec1cf16a226b234af5afae897987666834496360a08ac01a5",
+      "bytes": 65008
+    },
+    {
+      "path": "presentation-showcase/evidence/source-html/tests__test_rankings.py.html",
+      "sha256": "1389adbcfe6f35fdab7ddb2972fcdb7138c8c34aa39e498a3bfd418d41504a0c",
+      "bytes": 116080
+    },
+    {
+      "path": "presentation-showcase/evidence/source-html/tests__test_tower_read_model.py.html",
+      "sha256": "d14190ac4db37f632effac8d50a89b04e4f120aa1582343a27de123aee0aebd5",
+      "bytes": 95461
+    },
+    {
+      "path": "presentation-showcase/evidence/source-html/tests__ui_test_support.py.html",
+      "sha256": "3cdb0844cf9f708fbb1028eac46465edf015c6e19916f72e2598e41308cfbc4d",
+      "bytes": 28975
+    },
+    {
+      "path": "presentation-showcase/evidence-panels.js",
+      "sha256": "aa80a79cd8c428ee92f967e4a45a95d5ac82fc45b324805724818bb750c2a1e8",
+      "bytes": 21121
+    },
+    {
+      "path": "presentation-showcase/index.html",
+      "sha256": "8df068ac3bbcdb198284e757592f60f6fcde5920f443434ac2038e617ccbd3c7",
+      "bytes": 2961
+    },
+    {
+      "path": "presentation-showcase/style.css",
+      "sha256": "f3708e4868f8c0a8d58d3b014cc84de2530b3b119f803daaa4d0aea8ac73b3ca",
+      "bytes": 39007
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "ad70de1d306d0422d3c675a13fc23b640415fb3af2c616ffa0aaec7bea1aef44",
+      "bytes": 820
+    },
+    {
+      "path": "scripts/build_observable.py",
+      "sha256": "d19b4eaee52590dee0edb9640a9724b9d8abf9e108d1a35ef8c66c3bbb64e0df",
+      "bytes": 1355
+    },
+    {
+      "path": "scripts/calculate_finance.py",
+      "sha256": "ded6c5f43880752a661cba91ee0a92aa2899ef96c7cfd2b40c8183a3f5f2ecc9",
+      "bytes": 1406
+    },
+    {
+      "path": "scripts/check_connection.py",
+      "sha256": "ecdf1331812ea522be02eb0f07f33e361ec2bc837a5eb692dff32906d9aa91bc",
+      "bytes": 675
+    },
+    {
+      "path": "scripts/inspect_graph.py",
+      "sha256": "af7011e586039a6cf08556fdfbc146c6cc5f1837256c84e0a9a524acf7c11c11",
+      "bytes": 2042
+    },
+    {
+      "path": "scripts/load_observable.py",
+      "sha256": "4c6087f011f386cf146b12e4afee4332427886cad5be843265ec2dedef018c0d",
+      "bytes": 1998
+    },
+    {
+      "path": "scripts/rank_companies.py",
+      "sha256": "041d516859fec80032b5f15ed57aef6cde9a2b6b597f7a712de4f4b998427865",
+      "bytes": 2753
+    },
+    {
+      "path": "scripts/validate_design.py",
+      "sha256": "b8737866d2609eabc104b161612e270e41e0bdee6e23029cf1cb8a36395090e8",
+      "bytes": 508
+    },
+    {
+      "path": "src/economic_graph/__init__.py",
+      "sha256": "2f886f6c383428e3ab8abff661cef17fce2b8f9f4a8d4bd96f772832cc7c650f",
+      "bytes": 68
+    },
+    {
+      "path": "src/economic_graph/config.py",
+      "sha256": "50d6ebc23a33df53bf5b406be451bfa2a6f07a853a9350a3ecb683c379dfde3c",
+      "bytes": 1578
+    },
+    {
+      "path": "src/economic_graph/contracts.py",
+      "sha256": "38c07077873ef0697a0ee1e07853875007d3f4b2cdd11486f241442d8826670d",
+      "bytes": 6823
+    },
+    {
+      "path": "src/economic_graph/database.py",
+      "sha256": "69c333d6d8534536dc793053340c1e827b4ee6d6f756ba2cf8369304fe9bd124",
+      "bytes": 2055
+    },
+    {
+      "path": "src/economic_graph/finance.py",
+      "sha256": "d3e385b4ccfa0588442047fe757e5cd31ed16343a054c1d746169800d906bcd3",
+      "bytes": 23303
+    },
+    {
+      "path": "src/economic_graph/mongo_observable.py",
+      "sha256": "074935fd6969dcc87294728086915d8641ea11e9ede2eacaec813ed48fdf33b6",
+      "bytes": 4043
+    },
+    {
+      "path": "src/economic_graph/observable.py",
+      "sha256": "2710ca529460114322ce3e60fed7c4a1fd2cfb3f3b577a9b636895eba5d3bb40",
+      "bytes": 7142
+    },
+    {
+      "path": "src/economic_graph/rankings.py",
+      "sha256": "bad7f95c771bac3fa3a7ca7779232ddef1ba57f07bae4569485b40d7f51e612b",
+      "bytes": 13257
+    },
+    {
+      "path": "src/economic_graph/simulator/__init__.py",
+      "sha256": "b2fa697185d653c188b4d1b8be8e22f94995dee0497b681444b54b3400fdacc4",
+      "bytes": 92
+    },
+    {
+      "path": "src/economic_graph/simulator/design.py",
+      "sha256": "428939d3b7e12ab4317eb65f957b79358d1015856ebc92669eff5cbe1bf5c875",
+      "bytes": 19466
+    },
+    {
+      "path": "src/economic_graph/simulator/project.py",
+      "sha256": "3c210da9b5d988172de105641cc6b23b8e86ee0a213496d60099eea5dd8ee379",
+      "bytes": 4921
+    },
+    {
+      "path": "src/economic_graph/tower_read_model.py",
+      "sha256": "b94585d429e40a35cad74b76517abace026e0cbba713c05c0ee5f78cb7bbe659",
+      "bytes": 16664
+    },
+    {
+      "path": "tests/conftest.py",
+      "sha256": "1481b6881e55145d329a9312b53daf83ccdfb1d6b79a537a66d629c1b5f6f406",
+      "bytes": 1470
+    },
+    {
+      "path": "tests/integration/test_atlas_observable.py",
+      "sha256": "a0a9ceea713b851453dd3b742c776c6f573faa38244934d442a094af8d7b974c",
+      "bytes": 1420
+    },
+    {
+      "path": "tests/test_check_connection.py",
+      "sha256": "89632b514af53df74ec4c4c63ab86aa06eab86ed8df83bd6149f1c2568d88116",
+      "bytes": 1883
+    },
+    {
+      "path": "tests/test_config.py",
+      "sha256": "6d77135506b7c0deecd97e65082591c7c6ac9f4186011ece7819ed02d8c96117",
+      "bytes": 4111
+    },
+    {
+      "path": "tests/test_control_tower.py",
+      "sha256": "63a5dcc4dc6677f47c2da8e21c6a77beb3d4c7469bdd7ddaa3159d3306b3e9af",
+      "bytes": 18046
+    },
+    {
+      "path": "tests/test_database.py",
+      "sha256": "fe20d67e7012883dcfc0bda459c42bfbb989e93fbc5ef2f6378c2471c878701d",
+      "bytes": 3360
+    },
+    {
+      "path": "tests/test_design.py",
+      "sha256": "be04edba3d119054183fdb67c7345f46725d1951db697760f00177cb3f1d997b",
+      "bytes": 4466
+    },
+    {
+      "path": "tests/test_finance.py",
+      "sha256": "cc35ab647104a3784a118816a1513bdf807f7b6326a42f06de0eb49ced3b5072",
+      "bytes": 14126
+    },
+    {
+      "path": "tests/test_finance_commands.py",
+      "sha256": "c80e66b28f35e328f2517e0267ad19193bcd8349e8c9935fef24d66bf3375d32",
+      "bytes": 5776
+    },
+    {
+      "path": "tests/test_graph_commands.py",
+      "sha256": "5f00dd8fa389ef57ae17ef3647d003bdeabf66ddc0ec0de72ab64e06bdf8424e",
+      "bytes": 3298
+    },
+    {
+      "path": "tests/test_mongo_observable.py",
+      "sha256": "f6966a3279b4369387fd64372c3d3ee8df0121a6bfb6a7bc320db1219a9ccd4b",
+      "bytes": 6172
+    },
+    {
+      "path": "tests/test_observable.py",
+      "sha256": "091a00755ab827a8e0768289024e9b3e6c395700b2c1c65fcfb579f815f6864e",
+      "bytes": 9740
+    },
+    {
+      "path": "tests/test_ranking_commands.py",
+      "sha256": "f5261c32b3c34be0fb87448461b9acacf184a6ff1db63edf72f4b90939fe58d0",
+      "bytes": 9723
+    },
+    {
+      "path": "tests/test_rankings.py",
+      "sha256": "f97f8b3422f7bd67f4a65a70da9647424384e7beb097d2d09b2b114ac6941836",
+      "bytes": 17968
+    },
+    {
+      "path": "tests/test_tower_read_model.py",
+      "sha256": "a01ece2086c01d6ad9a9b59ac576e1c32d292e54978f6a226a2f94a68225d565",
+      "bytes": 13914
+    },
+    {
+      "path": "tests/ui_test_support.py",
+      "sha256": "1540942e1d536e855afb5905fd0e012f4b4ab5305df5729ac59f01a1562ca41a",
+      "bytes": 4230
+    },
+    {
+      "path": "uv.lock",
+      "sha256": "feae2a026723e9c427b3771b7c3fb3d06f8e33d1444b24cf17ac6e6aac7623d8",
+      "bytes": 343164
+    }
+  ]
+}
